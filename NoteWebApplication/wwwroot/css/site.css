@@ -1,0 +1,103 @@
+﻿
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#main_wrapper
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#left_column
+{
+    position: absolute;
+    left: 0;
+    width: 30%;
+    height:100%;
+    overflow: auto;
+    border-right: solid 1px #ddd;
+}
+
+#right_column
+{
+    position: absolute;
+    right: 0;
+    width: 70%;
+    height: 100%;
+}
+
+#text_area_toolbar
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    border-bottom: solid 1px #dddddd;
+    background: #ffffff;
+}
+
+textarea
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+    border: none;
+    padding: 70px 10px 10px 10px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 14.33px;
+    overflow: auto;
+}
+
+a.note_item 
+{
+    border-bottom: solid 1px #dddddd;
+    color: #000000;
+    display: block;
+    padding: 10px;
+}
+
+a.note_item:visited{
+    text-decoration: none;
+}
+
+a.note_item:link {
+    text-decoration: none;
+}
+
+a.note_item:hover {
+    text-decoration: none;
+    background: #daeffd;
+}
+
+a.note_item:active {
+    text-decoration: none;
+    background: #fef6dd;
+}
+
+a.note_item:focus {
+    text-decoration: none;
+    background: #fef6dd;
+}
+
+.link_active 
+{
+    background: #fef6dd;
+}
+
+.note_item_text {
+    font-size: 14.33px;
+    color: #000000;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 38px;
+    display: -webkit-box;
+    white-space: normal;
+    line-height: 18px;
+    overflow: hidden;
+}
